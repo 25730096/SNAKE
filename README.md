@@ -17,8 +17,9 @@ This project implements a Snake Game using C++, aiming to develop fundamental pr
 | 2 | SV2 and SV3 clone the project |
 | 3 | Development on separate branches (Draw Frame, Take Bait) |
 | 4 | Commit, push, and create pull requests |
-| 5 | SV1 reviews, merges, and resolves conflicts |
-| 6 | Final integration and testing |
+| 5 | SV3 Resolves conflicts |
+| 6 | SV1 Review and Merges |
+| 7 | Final integration and testing |
 
 ## Conclusion
 This project helps students understand the collaborative software development process, use Git/GitHub in practice, and apply C++ knowledge in a real implementation.
