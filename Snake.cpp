@@ -28,6 +28,7 @@ public:
         A[2].x = 12;
         A[2].y = 10;
     }
+
     void Ve(Point Qua)
     {
         for (int i = 0; i < DoDai; i++)
@@ -55,6 +56,16 @@ public:
 
     }
 };
+void VeKhung()
+{
+    for (int i = MINX ; i<=MAXX ; i++)
+        for (int j = MINX ; j<=MAXY ; j++)
+            if ((i==MINX) || (i==MAXX) || (j==MINY) || (j==MAXY))
+            {
+                gotoxy(i,j);
+                printf("+");
+            }
+}
 
 int main()
 {
@@ -77,6 +88,7 @@ int main()
             if (t=='x') Huong = 1;
         }
         system("cls");
+        VeKhung();
         r.Ve(Qua);
         r.DiChuyen(Huong, Qua);
         Sleep(300);
